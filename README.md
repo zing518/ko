@@ -2,16 +2,18 @@
 
 在某容器云部署Xray高性能代理服务，通过ws传输的(vmess、vless、trojan、shadowsocks、socks)等协议
 
-说明：https://owo.misaka.rest/koyeb-xray/
+Kxxxb：https://owo.misaka.rest/koyeb-xray/
 
-更新状态：即将支持Fly.io容器云!
+Flyio：https://owo.misaka.rest/flyio-xray/
 
 # 请勿使用常用的账号部署此项目，以免封号！！
 
 关于本脚本加密sh文件的说明：由于某容器云已识别本脚本，故不得不加密项目的sh文件代码
 
-## K开头的容器云部署步骤
+## 部署步骤
 
+<details>
+    <summary>历史更新记录（点击展开）</summary>
 1. Fork本仓库并改名
 2. 在`Dockerfile`内第3-5行修改自定义设置，说明如下：
 
@@ -91,6 +93,8 @@ ShadowSocks
 说明：需将插件 https://github.com/shadowsocks/xray-plugin/releases 下载解压后放至shadowsocks同目录
 插件选项: tls;host=xxx-xxx.koyeb.app;path=/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-ss
 ```
+    
+</details>
 
 ## 注意
 
