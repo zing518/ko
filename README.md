@@ -13,7 +13,7 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 ## 部署步骤
 
 <details>
-    <summary>历史更新记录（点击展开）</summary>
+    <summary>Kxxxb 容器云</summary>
 1. Fork本仓库并改名
 2. 在`Dockerfile`内第3-5行修改自定义设置，说明如下：
 
