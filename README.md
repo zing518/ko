@@ -14,7 +14,7 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 
 <details>
     <summary>Fly.io 容器云</summary>
-5. 使用以下命令安装Flyctl工具
+1. 使用以下命令安装Flyctl工具
 
 Windows：`iwr https://fly.io/install.ps1 -useb | iex` 
 
@@ -22,8 +22,9 @@ Windows：`iwr https://fly.io/install.ps1 -useb | iex`
 
 Mac OS / Linux：`curl -L https://fly.io/install.sh | sh`
 
-6. 下载[KOXray项目文件](https://github.com/Misaka-blog/KOXray)，并解压
-7. 修改`Dockerfile`内第3-5行修改自定义设置，说明如下：
+2. 下载[KOXray项目文件](https://github.com/Misaka-blog/KOXray)，并解压
+    
+3. 修改`Dockerfile`内第3-5行修改自定义设置，说明如下：
 
 `AUUID`：用来部署节点的UUID，如有需要可在[uuidgenerator](https://www.uuidgenerator.net/)生成
 
@@ -33,34 +34,35 @@ Mac OS / Linux：`curl -L https://fly.io/install.sh | sh`
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423024827.png)
 
-8. 右键当前目录，点击“从终端中打开”
+4. 右键当前目录，点击“从终端中打开”
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423024905.png)
 
-9. 输入`flyctl auth login`，在CLI页面登陆自己的Fly.io账号
-10. 输入`flyctl launch`，然后按照下图设置
+5. 输入`flyctl auth login`，在CLI页面登陆自己的Fly.io账号
+    
+6. 输入`flyctl launch`，然后按照下图设置
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423025437.png)
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423025618.png)
 
-11. 修改CLI生成的`fly.toml`文件，将`internal_port = 8080`改为`internal_port = 80`
+7. 修改CLI生成的`fly.toml`文件，将`internal_port = 8080`改为`internal_port = 80`
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423025720.png)
 
-12. 回到命令行，输入`flyctl deploy`进行推送至Fly.io
+8. 回到命令行，输入`flyctl deploy`进行推送至Fly.io
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423025825.png)
 
-13. CLI推送成功之后，在Fly.io的控制面板会提示刚刚部署的应用
+9. CLI推送成功之后，在Fly.io的控制面板会提示刚刚部署的应用
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423030020.png)
 
-14. 在这里你可以看到应用信息，复制Hostname备用
+10. 在这里你可以看到应用信息，复制Hostname备用
 
 ![](https://cdn.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220423030108.png)
 
-15. 客户端配置如下
+11. 客户端配置如下
     
 V2ray
 
