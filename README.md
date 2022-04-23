@@ -13,7 +13,7 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 ## 部署步骤
 
 <details>
-    <summary>Heroku 容器云</summary>
+    <summary>Heroku 容器云 （测试中）</summary>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Misaka-blog/KOXray) 
 
