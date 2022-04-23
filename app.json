@@ -6,7 +6,19 @@
         "PORT": {
             "description": "一般情况请勿修改",
             "value": 80
-        }
+        },
+        "AUUID": {
+            "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
+            "value": "190190f5-d88c-48da-85b7-797bc3d9399f"
+        },
+        "CADDYIndexPage": {
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/AU-Linsanity/Xrayku/blob/master/etc/CADDYIndexPage.md",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "ParameterSSENCYPT": {
+            "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
+            "value": "chacha20-ietf-poly1305"
+        },
     },
     "website": "https://github.com/Misaka-blog/KOXray",
     "repository": "https://github.com/Misaka-blog/KOXray",
