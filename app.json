@@ -1,0 +1,14 @@
+{
+    "name": "KOXray",
+    "description": "A project about magic",
+    "keywords": ["magic"],
+    "env": {
+        "PORT": {
+            "description": "一般情况请勿修改",
+            "value": 80
+        }
+    },
+    "website": "https://github.com/Misaka-blog/KOXray",
+    "repository": "https://github.com/Misaka-blog/KOXray",
+    "stack": "container"
+}
