@@ -13,13 +13,6 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 ## 部署步骤
 
 <details>
-    <summary>Heroku 容器云 （测试中）</summary>
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Misaka-blog/KOXray) 
-
-</details>
-
-<details>
     <summary>Fly.io 容器云</summary>
 1. 使用以下命令安装Flyctl工具
 
