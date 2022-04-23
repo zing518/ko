@@ -213,3 +213,7 @@ ShadowSocks
 
 ## 交流群
 [Telegram](https://t.me/misakanetcn)
+
+## Stars 增长记录
+
+[![Stargazers over time](https://starchart.cc/Misaka-blog/KOXray.svg)](https://starchart.cc/Misaka-blog/KOXray)
