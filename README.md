@@ -15,7 +15,7 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 <details>
     <summary>Heroku 容器云</summary>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://github.com/Misaka-blog/KOXray) 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Misaka-blog/KOXray) 
 
 </details>
 
