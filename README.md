@@ -4,7 +4,7 @@
 
 Kxxxb：https://owo.misaka.rest/koyeb-xray/
 
-Flyio：https://owo.misaka.rest/flyio-xray/
+Flyio（已被检测，需要付费）：https://owo.misaka.rest/flyio-xray/
 
 # 请勿使用常用的账号部署此项目，以免封号！！
 
@@ -13,7 +13,7 @@ Flyio：https://owo.misaka.rest/flyio-xray/
 ## 部署步骤
 
 <details>
-    <summary>Fly.io 容器云</summary>
+    <summary>Fly.io 容器云 （已被检测，需要付费）</summary>
 1. 使用以下命令安装Flyctl工具
 
 Windows：`iwr https://fly.io/install.ps1 -useb | iex` 
