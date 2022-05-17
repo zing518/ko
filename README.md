@@ -217,3 +217,5 @@ ShadowSocks
 ## Stars 增长记录
 
 [![Stargazers over time](https://starchart.cc/Misaka-blog/KOXray.svg)](https://starchart.cc/Misaka-blog/KOXray)
+
+<a href="https://www.openode.io/">Cloud hosted on opeNode.io</a>
